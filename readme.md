@@ -1,6 +1,6 @@
 # Flower
 
-![Flower image](flower.jpeg)
+![Flower image](flower.gif)
 
 
 This repository contains code to generate a pretty flower animation. There are two ways to run it:
