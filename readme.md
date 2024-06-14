@@ -1,4 +1,8 @@
 # Flower
+
+![Flower image](flower.jpeg)
+
+
 This repository contains code to generate a pretty flower animation. There are two ways to run it:
 
 1) Via SCSS
