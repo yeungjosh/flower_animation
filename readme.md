@@ -3,10 +3,10 @@
 ![Flower image](flower.gif)
 
 
-This repository contains code to generate a pretty flower animation. There are two ways to run it:
+This repository contains code to generate a pretty flower animation. There are two ways to run it locally:
 
 1) Via SCSS
-2) Spin up a server [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+2) Spin up a server via [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 -----------------------------------------------------------------------------------------------------------------
 
