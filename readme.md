@@ -2,29 +2,22 @@
 
 ![Flower image](flower.gif)
 
+A pure HTML/CSS flower-growing animation. `index.html` holds the markup, `style.scss` the styles (compiled to `style.css`), and `main.js` just removes the `not-loaded` class from `<body>` one second after page load, which starts the CSS animations.
 
-This repository contains code to generate a pretty flower animation. There are two ways to run it locally:
+## Run it
 
-1) Via SCSS
-2) Spin up a server via [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+The compiled `style.css` is committed, so no build step is needed:
 
------------------------------------------------------------------------------------------------------------------
+- Open `index.html` directly in a browser, **or**
+- Serve the folder with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (VS Code extension) or any static server, e.g. `python3 -m http.server` and visit <http://localhost:8000>.
 
-METHOD 1
+## Editing the styles
 
-### Via SCSS
-Install SCSS
-```
-npm i -g scss
-```
+Edit `style.scss`, then recompile it to `style.css` with [Sass](https://sass-lang.com/install):
 
 ```
+npm i -g sass
 sass --watch style.scss:style.css
 ```
 
---------------------------------------------------------------------------------------------------------------
-
-METHOD 2
-
-Spin up a server [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
+(The npm package is `sass`; the older `scss` package is not the Sass compiler.)
