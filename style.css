@@ -984,5 +984,12 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
